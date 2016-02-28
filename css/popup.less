@@ -1,0 +1,148 @@
+.popup{
+	display: none;
+	width: 550px;
+	position: fixed !important;
+	z-index: 10100;
+	left: 50%;
+	margin-left: -550px / 2;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.main-overlay {
+	display: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 168px;
+	z-index: 99;
+	background: rgba(77, 77, 77, 0.6);
+}
+
+.full-overlay {
+	display: none;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1010;
+	background: rgba(0, 51, 153, 0.9);
+}
+
+.fixed-menu .main-overlay {
+	top: 50px;
+}
+
+.popup-auth{
+	padding: 30px 40px 20px;
+	.tabs-h{
+		color: #ededed;
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+		width: 50%;
+		float: left;
+		border-bottom: 3px solid #ededed;
+		padding-bottom: 10px;
+		&.active{
+			color: #4d4d4d;
+			border-color: #2b59c3;
+		}
+	}
+	.tabs-cont{
+		padding-top: 35px;
+	}
+	input[type="text"], input[type="password"]{
+		padding: 0 15px;
+	}
+	label{
+		color: #919191;
+		font-size: 12px;
+	}
+	.col-lost-pass{
+		text-align: right;
+		a{
+			color: #2b59c3;
+			font-size: 12px;
+			text-decoration: none;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.note{
+		margin-top: 30px;
+		color: #919191;
+		font-size: 12px;
+		line-height: 14px;
+		a{
+			color: #2b59c3;
+			text-decoration: none;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.sub{
+		margin-top: 30px;
+		width: 225px;
+		height: 50px;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	.row-auth{
+		margin-top: 20px;
+	}
+	.soc-auth{
+		margin-top: 30px;
+		padding-top: 18px;
+		border-top: 1px solid #f0f0f0;
+		.h{
+			font-size: 13px;
+			color: #4d4d4d;
+		}
+		ul{
+			margin-top: 15px;
+			.clearfix();
+			li{
+				list-style-type: none;
+				float: left;
+				margin-right: 12px;
+				a{
+					display: block;
+					width: 25px;
+					height: 25px;
+					background-image: url(../images/soc-sm.png);
+					background-repeat: no-repeat;
+				}
+
+				&.soc1 a{
+					background-position: 25px * (1 - 1) 0;
+				}
+				&.soc2 a{
+					background-position: 25px * (1 - 2) 0;
+				}
+				&.soc3 a{
+					background-position: 25px * (1 - 3) 0;
+				}
+				&.soc4 a{
+					background-position: 25px * (1 - 4) 0;
+				}
+				&.soc5 a{
+					background-position: 25px * (1 - 5) 0;
+				}
+				&.soc6 a{
+					background-position: 25px * (1 - 6) 0;
+				}
+				&.soc7 a{
+					background-position: 25px * (1 - 7) 0;
+				}
+			}
+		}
+	}
+	.tabs-cont-log{
+		padding-bottom: 0;
+		.soc-auth{
+		}
+	}
+}

@@ -1,0 +1,123 @@
+.clearfix() {
+    &:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// ===== REM UNIT MIXINS ====
+@base-font-size-px: 16;
+@pxtorem-js-function: ~`pxtorem = function(px){ if (typeof rmxsBaseFontSize == 'undefined')  rmxsBaseFontSize = @{base-font-size-px}; return (parseInt(px.replace(/(^\d+)(.+$)/i,'$1')) / rmxsBaseFontSize + 'rem') }`;
+
+
+// ===== FONT MIXINS =====
+.font-size(@value) {
+    font-size: @value;
+}
+.font-size(@value) when (ispixel(@value)) {
+    @rem-value: ~`pxtorem('@{value}')`;
+    font-size: @rem-value;
+}
+.line-height(@value) {
+    line-height: @value;
+}
+.line-height(@value) when (ispixel(@value)) {
+    @rem-value: ~`pxtorem('@{value}')`;
+    line-height: @rem-value;
+}
+.text-indent(@value) {
+    text-indent: @value;
+}
+.text-indent(@value) when (ispixel(@value)) {
+    @rem-value: ~`pxtorem('@{value}')`;
+    text-indent: @rem-value;
+}
+
+
+// ===== EFFECTS MIXINS =====
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+    text-shadow: @string;
+}
+.box-shadow (@string) {
+    -webkit-box-shadow: @string;
+    -moz-box-shadow:    @string;
+    box-shadow:         @string;
+}
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius:    @radius;
+    border-radius:         @radius;
+
+    -moz-background-clip:    padding;
+    -webkit-background-clip: padding-box;
+    background-clip:         padding-box;
+}
+
+.gradient (@startColor: #eee, @endColor: white) {
+    background-color: @startColor;
+    background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+    background: -webkit-linear-gradient(top, @startColor, @endColor);
+    background: -moz-linear-gradient(top, @startColor, @endColor);
+    background: -ms-linear-gradient(top, @startColor, @endColor);
+    background: -o-linear-gradient(top, @startColor, @endColor);
+}
+.opacity(@opacity) {
+	opacity: @opacity / 100;
+	filter: ~"alpha(opacity=@{opacity})";
+}
+.keyframes(@name; @arguments) {
+    @-moz-keyframes @name { @arguments(); }
+    @-webkit-keyframes @name { @arguments(); }
+    @keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+    -webkit-animation: @arguments;
+    -moz-animation: @arguments;
+    animation: @arguments;
+}
+.transition (@transition) {
+    -webkit-transition: @transition;  
+    -moz-transition:    @transition;
+    -ms-transition:     @transition; 
+    -o-transition:      @transition;  
+}
+.transform(@string){
+    -webkit-transform: @string;
+    -moz-transform:      @string;
+    -ms-transform:       @string;
+    -o-transform:        @string;
+}
+.scale (@factor) {
+    -webkit-transform: scale(@factor);
+    -moz-transform:      scale(@factor);
+    -ms-transform:       scale(@factor);
+    -o-transform:        scale(@factor);
+}
+
+
+// ===== SPECIAL MIXINS =====
+.none-shaddow() {
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+.heading-bar-shaddow() {
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow:    0px 0px 6px 0px rgba(0, 0, 0, 0.70);
+    box-shadow:         0px 0px 6px 0px rgba(0, 0, 0, 0.70);
+}
+.normal-shaddow() {
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(191, 191, 191, 0.5);
+    -moz-box-shadow:    0px 0px 1px 0px rgba(191, 191, 191, 0.5);
+    box-shadow:         0px 0px 1px 0px rgba(191, 191, 191, 0.5);
+}
+.hover-shaddow() {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(191, 191, 191, 0.75);
+    -moz-box-shadow:    0px 0px 12px 0px rgba(191, 191, 191, 0.75);
+    box-shadow:         0px 0px 12px 0px rgba(191, 191, 191, 0.75);
+}

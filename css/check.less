@@ -1,0 +1,92 @@
+.icr-label {
+    position: relative;
+    display: inline-block;
+}
+
+.icr-hidden {
+    position: absolute;
+    display: block;
+    top: 0; left: 0;
+    width: 0; height: 0;
+    overflow: hidden;
+}
+
+.icr-input {
+    position: absolute;
+    display: block;
+    top: -20px; left: -20px;
+}
+
+.icr-text {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icr-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Sprite positions */
+
+.icr-label .type_checkbox {
+	width: 16px;
+	height: 16px;
+	background: url(../images/check.png) no-repeat;
+    background-position: 0 0;
+}
+.icr-label .type_radio {
+	width: 18px; height: 18px;
+    background: url(../images/icr-cloudy-skin.png) no-repeat;
+    background-position: 0 -50px;
+}
+
+.icr-label:hover .type_radio {
+    background-position: -50px -50px;
+}
+
+
+.icr-label.checked .type_checkbox {
+    background-position: 0 -16px;
+}
+.icr-label.checked .type_radio {
+    background-position: -150px -50px;
+}
+
+.icr-label.checked:hover .type_radio {
+    background-position: -150px -50px;
+}
+
+.icr-label.disabled {
+    opacity: 0.5;
+}
+.lt-ie9 .icr-label.disabled {
+    filter: alpha(opacity=50);
+}
+
+.icr-label.disabled .type_checkbox {
+    background-position: 0 0 !important;
+}
+.icr-label.disabled .type_radio {
+    background-position: 0 -50px !important;
+}
+
+.icr-label.checked.disabled .type_checkbox {
+    background-position: -100px 0 !important;
+}
+.icr-label.checked.disabled .type_radio {
+    background-position: -100px -50px !important;
+}
+
+
+.icr-label {
+    padding-right: 2px;
+    margin: 0 5px 5px 0;
+}
+.icr-item {
+    top: -1px;
+}
+.icr-label.disabled {
+    opacity: 0.4;
+}
