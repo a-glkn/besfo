@@ -4,6 +4,9 @@ body{
 :focus{
 	outline: none !important;
 }
+label{
+	font-weight: normal !important;
+}
 
 .btn{
 	background: #ac1e3d; /* Old browsers */
@@ -15,6 +18,8 @@ body{
 	color: #fff;
 	border: 0;
 	border-radius: 3px;
+	text-align: center;
+	display: inline-block;
 	&:hover{
 		background: #fc1202; /* Old browsers */
 		background: -moz-linear-gradient(left,  #fc1202 0%, #ac1e3d 100%); /* FF3.6-15 */
@@ -167,6 +172,10 @@ body{
 		font-size: 15px;
 		width: 120px;
 		background: #f5ca14;
+	}
+	
+	&.promo-ribbon-sale{
+		background: magenta;
 	}
 }
 
@@ -470,7 +479,7 @@ body{
 
 .item-good{
 	padding: 5px 10px;
-	a{
+	.item-good-in{
 		border-radius: 3px;
 		display: block;
 		.normal-shaddow();
@@ -483,6 +492,8 @@ body{
 			top: 15px;
 		}
 		.img{
+			text-align: center;
+			display: block;
 			img{
 				display: inline-block;
 				max-width: 100%;
@@ -497,6 +508,9 @@ body{
 			color: #4d4d4d;
 			font-size: 13px;
 			line-height: 18px;
+			a{
+				color: #4d4d4d !important;
+			}
 			.n{
 				color: #919191;
 				font-size: 12px;
@@ -511,9 +525,11 @@ body{
 			padding: 0 10px;
 			.clearfix();
 			.rating{
+				position: relative;
+				top:-8px;
 				width: 55%;
-				height: 14px;
-				background: url(../images/25.png) 0 0 no-repeat;
+				height: 30px;
+// 				background: url(../images/25.png) 0 0 no-repeat;
 				float: left;
 			}
 			.reviews{
@@ -578,6 +594,7 @@ body{
 				position: static;
 				width: 96px;
 				height: 30px;
+				line-height: 30px;
 			}
 
 			.btn-fav, .btn-comp{
@@ -589,6 +606,10 @@ body{
 				border: 0;
 				background-color: transparent;
 				position: relative;
+				text-decoration: none;
+				&:hover{
+					text-decoration: none !important;
+				}
 				span{
 					margin-right: 6px;
 				}
@@ -714,6 +735,8 @@ body{
 				text-align: center;
 				img{
 					display: inline-block;
+					width: 100%;
+					height: auto;
 				}
 			}
 

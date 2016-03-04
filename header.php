@@ -253,7 +253,7 @@
 							<a href="">
 								<i></i>
 								Корзина
-								<span>31 000 руб.</span>
+								<span><span>31 000</span> руб.</span>
 								<div class="count">17</div>
 							</a>
 						</div>

@@ -65,7 +65,7 @@
 							<div class="h">Поиск по номеру детали <div class="tip" data-tip="Вы можете найти нужную запчасть по номеру детали завода-изготовителя. Введите номер детали в поисковую строку и мы покажем Вам необхоимую запчасть"></div></div>
 							<form class="s_n">
 								<input type="text" class="s_n" placeholder="Например GT 345">
-								<button class="sub">Найти</button>
+								<button class="sub-btn">Найти</button>
 							</form>
 						</div>
 						<div class="search-block-row">
@@ -133,7 +133,7 @@
 										<option value="15">Марка 14</option>
 									</select>
 								</div>
-								<button class="sub">Найти</button>
+								<button class="sub-btn">Найти</button>
 							</form>
 						</div>
 
@@ -158,7 +158,7 @@
 					<div class="catalog-block">
 						<div class="items-tile">
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -188,7 +188,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -218,7 +218,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -248,128 +248,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -400,7 +279,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -430,7 +309,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -460,7 +339,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -490,128 +369,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
-									<div class="img"><img src="images/ex.jpg" alt=""></div>
-									
-									<div class="h">
-										<div class="n">Номер детали GT423</div>
-										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
-									</div>
-
-									<div class="rates">
-										<div class="rating"></div>
-										<div class="reviews">Отзывы: 22</div>
-									</div>
-
-									<div class="price-block">
-										<div class="current-price"><span>15 500</span> руб.</div>
-										<div class="old-price"><span>17 200</span> руб.</div>
-									</div>
-
-									<div class="btns">
-										<div>
-											<button class="btn btn-order">Заказать</button>
-										</div>
-										<div>
-											<button class="btn-fav"><span></span>В закладки</button>
-											<button class="btn-comp"><span></span>Сравнить</button>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -642,7 +400,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -672,7 +430,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -702,7 +460,7 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">
@@ -732,7 +490,249 @@
 								</a>
 							</div>
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
+									<div class="img"><img src="images/ex.jpg" alt=""></div>
+									
+									<div class="h">
+										<div class="n">Номер детали GT423</div>
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+
+									<div class="rates">
+										<div class="rating"></div>
+										<div class="reviews">Отзывы: 22</div>
+									</div>
+
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+
+									<div class="btns">
+										<div>
+											<button class="btn btn-order">Заказать</button>
+										</div>
+										<div>
+											<button class="btn-fav"><span></span>В закладки</button>
+											<button class="btn-comp"><span></span>Сравнить</button>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="item-good">
+								<a href="" class="item-good-in">
 									<div class="img"><img src="images/ex.jpg" alt=""></div>
 									
 									<div class="h">

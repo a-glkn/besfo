@@ -13,10 +13,13 @@
 @fo: 'Open Sans', times;
 @fc: 'cricket', times;
 
+body{
+	min-width: 1200px;
+}
 
 /* Header */
 #header{
-	z-index: 100;
+	z-index: 1000;
 	.header-container-1{
 		height: 30px;
 		border-bottom: 1px solid #bfbfbf;
@@ -228,7 +231,7 @@
 				position: absolute;
 				top: 50px;
 				left: 15px;
-				z-index: 101;
+				z-index: 9999999;
 				width: 260px;
 				display: none;
 				.heading-bar-shaddow();
@@ -320,7 +323,7 @@
 								height: 350px;
 								display: inline-block;
 								text-align: left;
-								a{
+								.item-good-in{
 									.none-shaddow();
 									&:hover{
 										.none-shaddow();
@@ -446,6 +449,9 @@
 			right: 215px;
 			top: 16px;
 			display: none;
+			div{
+				display: inline-block;
+			}
 			a{
 				font-size: 13px;
 				color: #fff;
@@ -514,7 +520,7 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 700;
-				span{
+				>span{
 					font-size: 11px;
 					text-transform: none;
 					display: block;
@@ -1093,6 +1099,7 @@
 					margin-top: -30px / 2;
 					margin-left: -135px / 2;
 					border: 1px solid transparent;
+					display: inline-block;
 					&:before{
 						content:'';
 						top: 0;
@@ -1207,7 +1214,7 @@
 				border-bottom-right-radius: 0;
 			}
 			&.s_n{
-				.sub{
+				.sub-num-search{
 					-webkit-border-radius: 0;
 					-webkit-border-top-right-radius: 3px;
 					-webkit-border-bottom-right-radius: 3px;
@@ -1224,11 +1231,12 @@
 			float: left;
 			margin-right: 4px;
 		}
-		button{
+		.sub-btn{
 			float: right;
 			background: #bfbfbf;
 			width: 80px;
 			height: 30px;
+			
 			font-size: 13px;
 			color: #fff;
 			border-radius: 3px;
@@ -1237,6 +1245,9 @@
 			&:hover{
 				background: #2b59c3;
 			}
+		}
+		.sub-num-search{
+			margin-right: 4px;
 		}
 	}
 
@@ -1305,6 +1316,14 @@
 			&:last-child{
 				border: 0;
 			}
+			&.filter-group-price{
+				border-bottom: 0;
+				
+				.bx_filter_block{
+					margin-top: 20px;
+				}
+			}
+			&.filter-group-btn{padding: 0 0 25px;}
 			.h{
 				color: #4d4d4d;
 				font-size: 13px;
@@ -1314,6 +1333,9 @@
 			}
 			.filter-var{
 				margin-top: 8px;
+				font-size: 13px;
+				color: #919191;
+				text-decoration: none;
 				a{
 					font-size: 13px;
 					color: #919191;
@@ -1361,7 +1383,8 @@
 
 			}
 			.btns{
-				margin-top: 20px;
+		
+				padding: 20px 10px 0;
 				text-align: left;
 				.clearfix();
 				.btn-blue{
@@ -1376,6 +1399,8 @@
 					color: #2b59c3;
 					text-decoration: none;
 					font-size: 12px;
+					border: 0;
+					background: transparent;
 					&:hover{
 						color: #fc1202;
 						text-decoration: none;
@@ -1417,7 +1442,15 @@
 				padding-left: 0;
 				padding-right: 15px;
 				margin-bottom: 15px;
-				a{
+				.h{
+					a{
+						color: #4d4d4d !important;
+					}
+				}
+				.item-good-in{
+					.img{
+						text-align: center;
+					}
 					height: 425px;
 				}
 				&:nth-child(4n){
@@ -1454,6 +1487,13 @@
 					.tbl{
 						height: 240px;
 						width: 190px;
+						text-align: center;
+						img{
+							display: inline-block;
+							width: 100%;
+							max-width: 170px;
+							height: auto;
+						}
 					}
 				}
 				.h{
@@ -1481,7 +1521,7 @@
 					color: #4d4d4d;
 				}
 
-				a{
+				.item-good-in{
 					height: 240px;
 				}
 				&:nth-child(4n){
@@ -1500,7 +1540,10 @@
 					padding: 0;
 					.rating{
 						width: 90px;
-						background-position: center left;
+						background: none;
+						height: 30px;
+						position: relative;
+						top: -8px;
 					}
 					.reviews{
 						width: auto;
@@ -1548,6 +1591,23 @@
 						width: 100%;
 					}
 					button{
+						width: auto;
+						display: block;
+						margin: 0;
+						&.btn-order{
+							width: 96px;
+						}
+						&.btn-fav{
+							margin-top: 10px;
+							margin-left: 3px;
+						}
+
+						&.btn-comp{
+							margin-left: 3px;
+							margin-top: 10px;
+						}
+					}
+					a{
 						width: auto;
 						display: block;
 						margin: 0;

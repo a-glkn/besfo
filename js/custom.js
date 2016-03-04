@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('input[placeholder], textarea[placeholder]').placeholder();
 
-    $("input[type='checkbox']").ionCheckRadio();
+    //$("input[type='checkbox']").ionCheckRadio();
 
     cuSel({
         changedEl: "select",

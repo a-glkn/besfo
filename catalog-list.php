@@ -158,7 +158,7 @@
 					<div class="catalog-block">
 						<div class="items-list">
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 
 									<div class="img">
@@ -203,7 +203,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -248,7 +248,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -293,7 +293,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -338,7 +338,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -383,7 +383,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -428,7 +428,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">
@@ -473,7 +473,7 @@
 							</div>
 
 							<div class="item-good">
-								<a href="">
+								<a href="" class="item-good-in">
 									<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 									
 									<div class="img">

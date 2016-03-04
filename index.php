@@ -230,7 +230,7 @@
 				<div class="col-lg-12">
 					<div class="items-carousel">
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
 								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
@@ -242,7 +242,7 @@
 							</a>
 						</div>
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
 								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
@@ -254,7 +254,7 @@
 							</a>
 						</div>
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
@@ -267,7 +267,7 @@
 							</a>
 						</div>
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
 								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
@@ -279,7 +279,7 @@
 							</a>
 						</div>
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
 								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
@@ -291,7 +291,7 @@
 							</a>
 						</div>
 						<div class="item-good">
-							<a href="">
+							<a href="" class="item-good-in">
 								<div class="img"><img src="images/ex.jpg" alt=""></div>
 								
 								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
