@@ -747,13 +747,79 @@ label{
 		z-index: 2;
 		&.slick-prev{
 			background-position: bottom left;
-			left: 22px;
+			left: -10px;
 			&:hover{
 				background-position: top left;
 			}
 		}
 		&.slick-next{
-			right: 22px;
+			right: -10px;
+			background-position: bottom right;
+			&:hover{
+				background-position: top right;
+			}
+		}
+	}
+}
+
+.items-tile-carousel{
+	position: relative;
+	.slick-list{
+		padding: 0 10px;
+	}
+	.item{
+		-webkit-box-shadow: none !important;
+	    -moz-box-shadow:    none !important;
+	    box-shadow:         none !important;
+		height: 190px !important;
+	
+		&.slick-active{
+			.item-good-in{
+				.normal-shaddow();
+			}
+
+			&:hover{
+				-webkit-box-shadow: none !important;
+			    -moz-box-shadow:    none !important;
+			    box-shadow:         none !important;
+			    .item-good-in{
+					.hover-shaddow();
+			    }
+			}
+		}
+
+
+		.item-good-in{
+			margin-top: 10px;
+			height: 170px;
+			.img{
+				img{
+					max-width: 160px;
+				}
+			}
+		}
+		
+	}
+	.slick-arrow{
+		position: absolute;
+		top: 64px;
+		width: 41px;
+		height: 41px;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-image: url(../images/08.png);
+		border: 0;
+		text-indent: -99999px;
+		z-index: 2;
+		&.slick-prev{
+			background-position: bottom left;
+			left: -10px;
+			&:hover{
+				background-position: top left;
+			}
+		}
+		&.slick-next{
+			right: -10px;
 			background-position: bottom right;
 			&:hover{
 				background-position: top right;

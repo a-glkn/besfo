@@ -188,7 +188,232 @@
 	</section>
 
 
+	<section id="also-buy">
+		<div class="container">
 
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="head-md">С этим товаром часто покупают</div>
+
+					<div class="items-carousel">
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<span class="promo-ribbon promo-ribbon-hit">ХИТ</span>
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+						<div class="item-good">
+							<a href="" class="item-good-in">
+								<div class="img"><img src="images/ex.jpg" alt=""></div>
+								
+								<div class="h">Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка</div>
+
+								<div class="price-block">
+									<div class="current-price"><span>15 500</span> руб.</div>
+									<div class="old-price"><span>17 200</span> руб.</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="viewed">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="head-md">Вы уже смотрели</div>
+
+					<div class="items-tile items-tile-carousel">
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="item">
+							<a href="" class="item-good-in">
+								<div class="img">
+									<div class="tbl">
+										<div class="cell">
+											<img src="images/ex-sm.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="t">
+									<div class="h">
+										Распредвал Стольников 16 V 10,7 мм фаза 296 градусов третья строка
+									</div>
+									<div class="price-block">
+										<div class="current-price"><span>15 500</span> руб.</div>
+										<div class="old-price"><span>17 200</span> руб.</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<?php include 'footer.php'; ?>

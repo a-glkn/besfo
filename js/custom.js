@@ -73,6 +73,11 @@ $(document).ready(function () {
         slidesToScroll: 1
     });
 
+    $('.items-tile-carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
+
     $('.ya-share2__list li').mousemove(function(event) {
         $('.ya-share2__list li').addClass('blur');
         $(this).removeClass('blur');
@@ -112,10 +117,10 @@ $(document).ready(function () {
     });
 
 
-    $('ul.main-cat li').mousemove(function(event) {
+    $('ul.main-cat > li').mousemove(function(event) {
         $(this).addClass('hovered');
     });
-    $('ul.main-cat li').mouseleave(function(event) {
+    $('ul.main-cat > li').mouseleave(function(event) {
         $(this).removeClass('hovered');
     });
 

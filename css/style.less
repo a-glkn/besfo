@@ -286,8 +286,7 @@ body{
 					}
 					.sub-menu{
 						display: none;
-						width: 584px;
-						
+						width: 580px;
 						position: absolute;
 						left: 260px;
 						top: 0;
@@ -300,6 +299,9 @@ body{
 						-moz-border-radius-bottomleft: 3px;
 						border-bottom-right-radius: 3px;
 						border-bottom-left-radius: 3px;
+						&.three-cols{
+							width: 870px;
+						}
 						.heading-bar-shaddow();
 						.clearfix();
 						.col-scroll{
@@ -307,14 +309,16 @@ body{
 							float: left;
 							height: 500px;
 							overflow: auto;
-							width: 292px;
+							width: 290px;
 							&::-webkit-scrollbar {
 						        width: 0;
 						    }
 						}
 						.col-hit{
-							width: 292px;
-							float: left;
+							width: 290px;
+							position: absolute;
+							right: 0;
+							top: 0;
 							height: 500px;
 							text-align: center;
 							border-left: 1px solid #ededed;
@@ -2149,5 +2153,22 @@ body{
 		padding-top: 2em;
 		padding-bottom: 2em;
 		text-align: center;
+	}
+}
+
+#also-buy{
+	margin-top: 70px;
+	.head-md{
+		padding-left: 10px;
+		padding-bottom: 25px;
+	}
+}
+
+#viewed{
+	margin-top: 35px;
+	padding-bottom: 50px;
+	.head-md{
+		padding-left: 10px;
+		padding-bottom: 25px;
 	}
 }
