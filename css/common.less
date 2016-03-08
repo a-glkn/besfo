@@ -50,6 +50,20 @@ label{
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a58c2', endColorstr='#003399',GradientType=1 ); /* IE6-9 */
 	}
 }
+
+.btn-grey{
+	background-color: transparent;
+	font-size: 15px;
+	border: 1px solid #919191;
+	color: #919191;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	&:hover{ 
+		color: #2b59c3;
+		border-color: #2b59c3;
+	}
+}
 .inp-text{
 	padding: 0 12px;
 	width: 100%;
@@ -446,6 +460,53 @@ label{
 	font-size: 25px;
 	font-weight: 700;
 	text-transform: uppercase;
+	&.single-title{
+		text-transform: none;
+		position: relative;
+		border-bottom: 1px solid #bfbfbf;
+		padding-bottom: 9px;
+		a{
+			font-size: 13px;
+			color: #919191;
+			position: absolute;
+			right: 0;
+			top: 13px;
+			font-weight: 400;
+			padding-left: 18px;
+			&:before{
+				content:'';
+				top: 0;
+				display: block;
+				position: absolute;
+				width: 6px;
+				height: 1px;
+				top: 7px;
+				left: 0;
+				background: #919191;
+				.transform(rotate(-45deg));
+			}
+
+			&:after{
+				content:'';
+				top: 0;
+				display: block;
+				position: absolute;
+				width: 6px;
+				height: 1px;
+				top: 11px;
+				left: 0;
+				background: #919191;
+				.transform(rotate(45deg));
+			}
+
+			&:hover{
+				color: #2b59c3;
+				&:before, &:after{
+					background: #2b59c3;
+				}
+			}
+		}
+	}
 }
 
 #to-top{

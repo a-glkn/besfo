@@ -3,6 +3,24 @@ $(document).ready(function () {
 
     //$("input[type='checkbox']").ionCheckRadio();
 
+
+     $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: false,
+        centerMode: false,
+        vertical: true,
+        focusOnSelect: true
+    });
+
     cuSel({
         changedEl: "select",
         visRows: 6,
@@ -146,8 +164,22 @@ $(document).ready(function () {
         var $cont = $(this).parent(), 
             $i = $(this).index();
 
-        $('.tabs-h.active').removeClass('active');
-        $('.tabs-cont.active').removeClass('active');
+        $('.tabs-h.active', $cont).removeClass('active');
+        $('.tabs-cont.active', $cont).removeClass('active');
+
+
+        $(this).addClass('active');
+        $('.tabs-cont:eq(' + $i + ')', $cont).addClass('active');
+    });
+
+
+    $('.tab-headers').on('click', '.tabs-h', function(event) {
+
+        var $cont = $( event.delegateTarget ).parent(), 
+            $i = $(this).index();
+
+        $('.tabs-h.active', $cont).removeClass('active');
+        $('.tabs-cont.active', $cont).removeClass('active');
 
 
         $(this).addClass('active');
@@ -162,6 +194,9 @@ $(document).ready(function () {
         $obj.stop(true, true).fadeToggle('200');
         that.toggleClass('active');
 
+        if(that.data('parent-class'))
+            that.parent().toggleClass('active');
+
         $(document).mouseup(function (e){
             var div = $obj;
 
@@ -170,6 +205,9 @@ $(document).ready(function () {
                 && div.has(e.target).length === 0) {
                 div.fadeOut(); 
                 that.removeClass('active');
+
+                if(that.data('parent-class'))
+                    that.parent().removeClass('active');
             }
         });
     });
