@@ -453,6 +453,48 @@ label{
 	}
 }
 
+.back-container{
+	position: relative;
+	margin-bottom: 50px;
+}
+.back-link{
+	font-size: 13px;
+	color: #919191;
+	font-weight: 400;
+	padding-left: 18px;
+	&:before{
+		content:'';
+		top: 0;
+		display: block;
+		position: absolute;
+		width: 6px;
+		height: 1px;
+		top: 7px;
+		left: 0;
+		background: #919191;
+		.transform(rotate(-45deg));
+	}
+
+	&:after{
+		content:'';
+		top: 0;
+		display: block;
+		position: absolute;
+		width: 6px;
+		height: 1px;
+		top: 11px;
+		left: 0;
+		background: #919191;
+		.transform(rotate(45deg));
+	}
+
+	&:hover{
+		color: #2b59c3;
+		&:before, &:after{
+			background: #2b59c3;
+		}
+	}
+}
 
 .section-title{
 	margin-top: 15px;
@@ -465,45 +507,52 @@ label{
 		position: relative;
 		border-bottom: 1px solid #bfbfbf;
 		padding-bottom: 9px;
-		a{
-			font-size: 13px;
-			color: #919191;
+	}
+
+	&.cart-title{
+		margin-top: 15px + 47;
+		text-transform: none;
+		position: relative;
+		padding-bottom: 9px;
+	}
+	a{
+		font-size: 13px;
+		color: #919191;
+		position: absolute;
+		right: 0;
+		top: 13px;
+		font-weight: 400;
+		padding-left: 18px;
+		&:before{
+			content:'';
+			top: 0;
+			display: block;
 			position: absolute;
-			right: 0;
-			top: 13px;
-			font-weight: 400;
-			padding-left: 18px;
-			&:before{
-				content:'';
-				top: 0;
-				display: block;
-				position: absolute;
-				width: 6px;
-				height: 1px;
-				top: 7px;
-				left: 0;
-				background: #919191;
-				.transform(rotate(-45deg));
-			}
+			width: 6px;
+			height: 1px;
+			top: 7px;
+			left: 0;
+			background: #919191;
+			.transform(rotate(-45deg));
+		}
 
-			&:after{
-				content:'';
-				top: 0;
-				display: block;
-				position: absolute;
-				width: 6px;
-				height: 1px;
-				top: 11px;
-				left: 0;
-				background: #919191;
-				.transform(rotate(45deg));
-			}
+		&:after{
+			content:'';
+			top: 0;
+			display: block;
+			position: absolute;
+			width: 6px;
+			height: 1px;
+			top: 11px;
+			left: 0;
+			background: #919191;
+			.transform(rotate(45deg));
+		}
 
-			&:hover{
-				color: #2b59c3;
-				&:before, &:after{
-					background: #2b59c3;
-				}
+		&:hover{
+			color: #2b59c3;
+			&:before, &:after{
+				background: #2b59c3;
 			}
 		}
 	}
