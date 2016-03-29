@@ -252,7 +252,12 @@ $(document).ready(function () {
     });
 
 
+	$('.soc-auth').on('click', 'a',function(event) {
+        closePop();
+    });
 
+
+/*
     $("form .sub").click(function(event) {
         
         var form = $(this).parent();
@@ -305,6 +310,7 @@ $(document).ready(function () {
         
         return false;
     });
+*/
     
 });
 
