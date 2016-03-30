@@ -15,8 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
-
+<body class="<?php if(strstr($_SERVER['REQUEST_URI'], 'auth-reg-stage.php')) echo 'auth-reg-stage';?>">
 	<header id="header">
 		<div class="header-container-1">
 			<div class="container">

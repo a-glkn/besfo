@@ -108,7 +108,7 @@
 	<div class="full-overlay"></div>
 
 
-	<div class="popup popup-auth">
+	<div class="popup popup-auth auth-block">
 		<div class="tabs-h tabs-h-log active">ВХОД</div>
 		<div class="tabs-h tabs-h-reg">РЕГИСТРАЦИЯ</div>
 
