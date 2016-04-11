@@ -16,6 +16,11 @@
 	border-radius: 3px;
 	margin-right: 4px;
 }
+.big-cusel{
+	height: 36px;
+	border-color: #e3e3e3;
+	background: #f4f4f4;
+}
 .cuselFrameRight { /* левая часть селект. обычно скругление и левая граница */
 	position: absolute;
 	z-index: 2;
@@ -61,6 +66,20 @@
 	}
 }
 
+.big-cusel .cuselFrameRight{
+	width: 36px;
+	
+	&:before{
+		top: 15px;
+		left: 15px;
+	}
+
+	&:after{
+		top: 15px;
+		left: 19px;
+	}
+}
+
 .cuselText { /* контейнер для отображенного текста селект */
 	height: 30px;
 	cursor: pointer;
@@ -75,6 +94,11 @@
 	left: 0;
 	line-height: 30px;
 }
+.big-cusel .cuselText{
+	padding: 0 12px;
+	height: 36px;
+	line-height: 36px;
+}
 .cusel-scroll-pane > span { /* оформление оптиона */
 	display: block;
 	cursor: pointer;
@@ -86,6 +110,7 @@
 	color: #4d4d4d;	
 	zoom: 1;
 }
+
 .cusel-scroll-pane > span:hover,
 .cusel-scroll-pane .cuselOptHover { /* реакция оптиона на наведение */
 	background: #ededed;

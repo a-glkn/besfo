@@ -3,6 +3,15 @@ $(document).ready(function () {
 
     //$("input[type='checkbox']").ionCheckRadio();
 
+    $('.order').on('click', '.toggler', function(event) {
+        event.preventDefault();
+        $(this).parent().parent().toggleClass('active');
+
+        if($(this).text() == 'Подробнее')
+            $(this).text('Свернуть');
+        else
+            $(this).text('Подробнее');
+    });
 
      $('.slider-for').slick({
         slidesToShow: 1,
